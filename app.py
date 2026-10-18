@@ -10,7 +10,7 @@ from PIL import Image, ImageOps
 import waste_core as wc
 
 ROOT = Path(__file__).parent
-MODEL_PATH = ROOT / "models" / "waste_model.pt"
+MODEL_PATH = ROOT / "waste_model.pt"
 CUSTOM_DIR = ROOT / "data" / "custom"
 cfg = wc.load_config(ROOT / "classes.json")
 S = cfg["settings"]
